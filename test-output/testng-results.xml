@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T13:49:11Z" name="BDD Test Suite" finished-at="2023-03-07T13:49:13Z" duration-ms="1161">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@dd0c991]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-07T13:49:11Z" name="Orange HRM Test" finished-at="2023-03-07T13:49:13Z" duration-ms="1161">
+      <class name="MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@dd0c991]" started-at="2023-03-07T13:49:11Z" name="setUpClass" finished-at="2023-03-07T13:49:12Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@dd0c991]" started-at="2023-03-07T13:49:12Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-03-07T13:49:12Z" duration-ms="75" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHRM Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@dd0c991]" started-at="2023-03-07T13:49:12Z" name="tearDownClass" finished-at="2023-03-07T13:49:13Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- Orange HRM Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
